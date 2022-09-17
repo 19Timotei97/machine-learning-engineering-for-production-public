@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-
+# This is a comment to force Git to see new changes
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
